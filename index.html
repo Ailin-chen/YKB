@@ -1,0 +1,51 @@
+const CONFIG = {
+  // 页面顶部小字
+  eyebrow: "渝快办",
+
+  // App 名称
+  appName: "渝快办",
+
+  // always-block = 永远显示暂停
+  // time-aware = 根据时间自动切换提示内容
+  displayMode: "time-aware",
+
+  // 允许星期：
+  // 0=周日
+  // 1=周一
+  // 2=周二
+  // 3=周三
+  // 4=周四
+  // 5=周五
+  // 6=周六
+  allowedDays: [1, 2, 3, 4, 5],
+
+  // 允许时间
+  startTime: "09:00",
+  endTime: "18:00",
+
+  // 不允许使用时显示
+  blockedTitle: "当前不在使用时段",
+  blockedMessage: "职工系统维护，请于工作日 09:00–17:30 访问。",
+  blockedIcon: "i",
+
+  // 允许时段显示
+  allowedTitle: "",
+  allowedMessage: "请更新ios系统至最新版本",
+  allowedIcon: "✓",
+
+  // 页面中央的规则
+  ruleLabel: "工作日 09:00–18:00",
+
+  // 页脚
+  footerText:
+    " ",
+
+  // 是否显示当前设备时间
+  showClock: true,
+
+  // null = 使用这台 iPhone 的当前时区
+  // 也可以固定，例如：
+  // "Asia/Shanghai"
+  // "Europe/Stockholm"
+  timeZone: null
+};
